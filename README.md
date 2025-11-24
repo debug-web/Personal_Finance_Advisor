@@ -1,55 +1,43 @@
-Personal Finance Advisor
-Overview
-This is a simple personal finance advisor and tracker in Python. It helps users keep track of their spending, see summaries by category, and get budget advice, all in a beginner-friendly command-line format. The project is made for students new to Python, uses only a single file of code, and saves data in CSV format.
+# Personal Finance Advisor
 
-Features
-Add spending transactions with date, category, amount, and description
+## Overview
 
-View all transactions in a table
+This project is a simple command-line Personal Finance Advisor written in Python. It helps you track spending, get basic budget insights, and view summaries by category. Designed for first-year CSE students, the whole app is just one Python file!
 
-See total spending grouped by category
+## Features
 
-Get simple monthly budget advice (warns when you get close to or exceed your limit)
+- Add spending transactions (date, category, amount, description)
+- View all transactions in a table
+- See total spending by category
+- Get monthly budget advice (warns if you’re close to/exceeding your limit)
+- Data saved in a basic CSV file (no external databases needed)
 
-Stores your data in a CSV file so you don’t lose your information
+## Technologies/Tools Used
 
-Technologies/Tools Used
-Python 3 (beginner-level code: lists, dictionaries, functions)
+- Python 3.x (only standard libraries)
+  - `csv` (for saving/loading data)
+  - `datetime` (for dates)
+- No third-party libraries required
 
-Python standard libraries: csv, datetime
+## Steps to Install & Run the Project
 
-No extra packages or advanced setup needed
+1. **Install Python 3**.
+2. **Download the code** (`personal_finance_advisor.py`) to a folder on your computer.
+3. **Open Terminal or Command Prompt** and `cd` into that folder.
+4. **Run this command:**
+    ```
+    python personal_finance_advisor.py
+    ```
+5. Follow the menu options in your terminal!
 
-Steps to Install & Run the Project
-Install Python 3 (download from python.org)
+## Instructions for Testing
 
-Download the project code: Save personal_finance_advisor.py in a folder.
+- Use menu Option 1 to add several transactions with different categories and amounts.
+- Use Option 2 to view your transaction table.
+- Use Option 3 to see if the summary-by-category works.
+- Use Option 4 to set a monthly budget and test if warnings work near/exceeding the limit.
+- Check that `transactions.csv` is created next to your code file, and try opening it in Excel.
 
-Open your terminal/command prompt and navigate to the folder.
+## Screenshots
 
-Run the project with:
-
-text
-python personal_finance_advisor.py
-Follow the on-screen menu.
-
-Option 1: Add a transaction
-
-Option 2: View your transactions
-
-Option 3: See summary by category
-
-Option 4: Get budget advice
-
-Option 5: Exit
-
-Instructions for Testing
-Run the program, use option 1 to add transactions (try a few categories and amounts).
-
-Use option 2 to see all your entries.
-
-Use option 3 to check if spending per category is shown correctly.
-
-Use option 4 to enter a monthly budget and check if the warning or success message makes sense.
-
-The program will create a file called transactions.csv in your project folder with all your data.
+**Menu Example:**
