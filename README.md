@@ -1,46 +1,55 @@
-# Personal Finance Advisor  
-*Build a personal finance advisor based on spending patterns.*
+Personal Finance Advisor
+Overview
+This is a simple personal finance advisor and tracker in Python. It helps users keep track of their spending, see summaries by category, and get budget advice, all in a beginner-friendly command-line format. The project is made for students new to Python, uses only a single file of code, and saves data in CSV format.
 
-![Project Banner](assets/banner.png)
+Features
+Add spending transactions with date, category, amount, and description
 
-## 📌 Overview
-This project is a Python-based personal finance advisor that analyzes real spending patterns and generates data-driven recommendations.  
-Instead of generic budgeting tips, the system processes actual transaction records, identifies patterns, detects anomalies, and provides tailored financial insights.
+View all transactions in a table
 
-The goal is simple: **help users understand where their money goes and how to use it better.**
+See total spending grouped by category
 
----
+Get simple monthly budget advice (warns when you get close to or exceed your limit)
 
-## ⚙️ Features
-### ✅ Core Functionality
-- **Transaction Import:** Load CSV/OFX files with bank transactions.  
-- **Merchant Normalization:** Clean and standardize merchant names.  
-- **Expense Categorization:** Rule-based categorizer with ML-ready hooks.  
-- **Spending Pattern Analysis:** Monthly aggregation + clustering to reveal trends.  
-- **Recurring Payment Detection:** Identify subscriptions and repeated charges.  
-- **Anomaly Detection:** Flag suspicious or unusually large expenses.  
-- **Personalized Recommendations:** Budget targets, saving opportunities, overspending alerts.
+Stores your data in a CSV file so you don’t lose your information
 
-### 🧩 Architecture
-Modular Python codebase:
-- `ingest.py` – transaction loading  
-- `preprocess.py` – cleaning + categorization  
-- `feature_engineering.py` – monthly feature creation  
-- `analytics.py` – clustering and pattern discovery  
-- `recommender.py` – generates actionable advice  
-- `prototype_main.py` – end-to-end execution pipeline  
+Technologies/Tools Used
+Python 3 (beginner-level code: lists, dictionaries, functions)
 
----
+Python standard libraries: csv, datetime
 
-## 🔧 Tech Stack
-- **Python 3.10+**  
-- **pandas** — data processing  
-- **scikit-learn** — clustering & analytics  
-- **rapidfuzz** — merchant normalization  
-- **matplotlib** — future dashboards and reports  
-- *(Optional)* Flask/FastAPI for API  
-- *(Optional)* SQLite/PostgreSQL for persistent storage  
+No extra packages or advanced setup needed
 
----
+Steps to Install & Run the Project
+Install Python 3 (download from python.org)
 
-## 📂 Project Structure
+Download the project code: Save personal_finance_advisor.py in a folder.
+
+Open your terminal/command prompt and navigate to the folder.
+
+Run the project with:
+
+text
+python personal_finance_advisor.py
+Follow the on-screen menu.
+
+Option 1: Add a transaction
+
+Option 2: View your transactions
+
+Option 3: See summary by category
+
+Option 4: Get budget advice
+
+Option 5: Exit
+
+Instructions for Testing
+Run the program, use option 1 to add transactions (try a few categories and amounts).
+
+Use option 2 to see all your entries.
+
+Use option 3 to check if spending per category is shown correctly.
+
+Use option 4 to enter a monthly budget and check if the warning or success message makes sense.
+
+The program will create a file called transactions.csv in your project folder with all your data.
