@@ -14,7 +14,8 @@ This project is a simple command-line Personal Finance Advisor written in Python
 
 ## Technologies/Tools Used
 
-- Python 3.x (only standard libraries)
+- Python 3
+- Python standard libraries: 
   - `csv` (for saving/loading data)
   - `datetime` (for dates)
 - No third-party libraries required
