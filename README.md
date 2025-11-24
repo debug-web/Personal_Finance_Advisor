@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple command-line Personal Finance Advisor written in Python. It helps you track spending, get basic budget insights, and view summaries by category. Designed for first-year CSE students, the whole app is just one Python file!
+This project is a simple command-line Personal Finance Advisor written in Python. It helps you track spending, get basic budget insights, and view summaries by category.
 
 ## Features
 
