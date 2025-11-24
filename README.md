@@ -41,9 +41,9 @@ This project is a simple command-line Personal Finance Advisor written in Python
 
 ## Screenshots
 
-![Project Banner](Screenshot/Screenshot 1.png)
-(Screenshot/Screenshot 2.png)
-(Screenshot/Screenshot 3.png)
-(Screenshot/Screenshot 4.png)
-(Screenshot/Screenshot 5.png)
-(Screenshot/Screenshot 6.png)
+![](Screenshot/Screenshot_1.png)
+![](Screenshot/Screenshot_2.png)
+![](Screenshot/Screenshot_3.png)
+![](Screenshot/Screenshot_4.png)
+![](Screenshot/Screenshot_5.png)
+![](Screenshot/Screenshot_6.png)
